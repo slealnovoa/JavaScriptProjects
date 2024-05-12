@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(238, 196, 141);
+    font-family: Helvetica;
+    font-size: 16px;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: rgb(70, 70, 70);
+    border: solid 1px black;
+}
+
+.title {
+    margin: 40px;
+    text-align: center;
+}
+
+.table {
+    font-size: 18px;
+    background-color: rgb(171, 231, 233);
+}
+
+.form {
+    margin: 0px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+table, td, th {
+    text-align: center;
+    border: solid 1px black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    background-color: antiquewhite;
+}
+
+td {
+    background-color: aliceblue;
+}
+
+.button {
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+    .button:hover {
+        background-color: cornflowerblue;
+    }
+
+.image {
+    text-align: center;
+}
+
+footer {
+    position: static;
+    bottom: 0px;
+    font-size: 70%;
+    text-align: center;
+}

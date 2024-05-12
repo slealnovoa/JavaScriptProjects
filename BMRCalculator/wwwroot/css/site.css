@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(236, 236, 236);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: rgb(70, 70, 70);
+    border: solid 1px black;
+}
+
+header {
+    background-color: rgb(183, 180, 221);
+}
+
+.title {
+    margin: 40px;
+    text-align: center;
+    border: solid 1px black;
+    border-collapse: collapse;
+    background-color: rgb(215, 214, 224);
+}
+
+.calculator {
+    font-size: 18px;
+    background-color: rgb(183, 180, 221);
+}
+
+.form {
+    margin: 0px 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    margin-left: 75px;
+    margin-right: 75px;
+    text-align: center;
+    background-color: rgb(215, 214, 224);
+    border-collapse: collapse;
+    border-left: 0px;
+    border-right: 0px;
+    border: solid 1px black;
+}
+
+table, td, th {
+    text-align: center;
+    border: solid 1px black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+    background-color: antiquewhite;
+}
+
+td {
+    background-color: aliceblue;
+}
+
+h4 {
+    text-align: center;
+}
